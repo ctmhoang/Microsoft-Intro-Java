@@ -1,3 +1,6 @@
+// Write a program print to declare and initialize 3 variable values
+//that you will name: an int as 2, a double as 3.6 and a String as “Hello”.
+
 public class Variables {
 	public static void main(String[] args) {
 		

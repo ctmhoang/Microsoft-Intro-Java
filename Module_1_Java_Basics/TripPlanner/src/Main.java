@@ -2,6 +2,9 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 import java.lang.Math.*;
 
+//Use decimal format will round the numbers if you want the program return the numbers like sample output
+//shoud multiply by 100, convert to int then /100.0
+
 public class Main {
 
     private static final Scanner INPUT = new Scanner(System.in);

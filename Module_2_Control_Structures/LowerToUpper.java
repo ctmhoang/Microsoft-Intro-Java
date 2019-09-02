@@ -20,3 +20,4 @@ public class LowerToUpper {
 
 
 //must remember StringBuilder & append & Character ;)
+// Can also use casting

@@ -20,4 +20,4 @@ public class NestedLoops {
     }
 }
 
-//Remerber /s /S /s+ /s*
+//Remerber \s \s+ \s*

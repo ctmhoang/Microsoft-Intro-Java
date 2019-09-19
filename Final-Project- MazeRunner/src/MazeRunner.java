@@ -75,6 +75,7 @@ public class MazeRunner {
                     "and you did it in " + movesMade + " moves");
         } else if (movesMade > 100) {
             System.out.println("Sorry, but you didn't escape in time- you lose!");
+            java.lang.System.exit(1);
         }
 
     }

@@ -161,7 +161,14 @@ public class Maze {
             }
             myMap[row][col] = 'x';
         } else {
-            throw new IllegalArgumentException("ERROR: You cannot move that way");
+            if(rowMove == 0){
+                col ++;
+            }
+            else{
+                row ++;
+            }
+//            throw new IllegalArgumentException("ERROR: You cannot move that way");
+
         }
         //printMap(myMap);
     }
